@@ -7,3 +7,4 @@
 secure:
   required_reviews: 2
   requires_mfa: true
+  allow_override_read_only: true
