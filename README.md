@@ -87,3 +87,12 @@ This abstraction is currently only used in DKLs18 implementation.
 - [[specV5] _One Round Threshold ECDSA for Coinbase._](docs/Coinbase_Pseudocode_v5.pdf)
 - [[EL20] _Eliding RSA Group Membership Checks._](docs/rsa-membership.pdf) [src](https://www.overleaf.com/project/5f9c3b0624a9a600012037a3)
 - [[P99] _Public-Key Cryptosystems Based on Composite Degree Residuosity Classes._](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.4035&rep=rep1&type=pdf)
+
+## Fixing Unreviewed Commits on Master
+
+To fix the issue of unreviewed commits on master, follow these steps:
+
+1. Ensure that the `.codeflow.yml` file specifies the required number of reviews. In this case, it should be set to 2 reviews.
+2. Check the comments by `cb-heimdall` to see the current status of reviews.
+3. If the required number of reviews has not been met, request additional reviews from the team.
+4. Once the required number of reviews is met, the commit can be considered approved and merged to master.
