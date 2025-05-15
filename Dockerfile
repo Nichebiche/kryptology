@@ -1,4 +1,4 @@
-FROM golang:1.17 AS builder
+FROM golang:1.24.3 AS builder
 # Install gomarkdoc
 RUN GO111MODULE=on go get -u github.com/princjef/gomarkdoc/cmd/gomarkdoc
 
